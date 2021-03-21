@@ -14,6 +14,15 @@
 
 LOCAL_PATH := $(call my-dir)
 
+#Cutils Support for Cam
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := cutil-atomic.cpp
+LOCAL_MODULE := libshim_atomic
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_SHARED_LIBRARY)
+include $(CLEAR_VARS)
+
 # QSAP
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := libqsap_shim.c

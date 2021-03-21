@@ -220,7 +220,9 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib/libmmcamera_stillmore_lib.so|/system/lib/libshim_cameraclient.so \
     /system/vendor/lib/hw/camera.msm8992.so|/system/vendor/lib/libfence_shim.so \
     /system/vendor/lib64/lib-rtpcore.so|/system/vendor/lib64/ims_rtp_shim.so \
-    /system/vendor/bin/slim_daemon|/system/vendor/lib64/slim_shim.so
+    /system/vendor/bin/slim_daemon|/system/vendor/lib64/slim_shim.so \
+    /system/vendor/lib/hw/camera.msm8992.so|/system/vendor/lib/libshim_atomic.so \
+    /system/vendor/lib/hw/camera.msm8992.so|/system/vendor/lib/libshim_cameraclient.so
 
 # Thermal
 USE_DEVICE_SPECIFIC_THERMAL := true

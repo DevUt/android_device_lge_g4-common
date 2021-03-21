@@ -38,7 +38,6 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := cameraclient_shim.cpp
 LOCAL_MODULE := libshim_cameraclient
 LOCAL_MODULE_TAGS := optional
-LOCAL_32_BIT_ONLY := true
 include $(BUILD_SHARED_LIBRARY)
 
 # Fence

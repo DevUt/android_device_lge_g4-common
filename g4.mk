@@ -354,6 +354,7 @@ PRODUCT_PACKAGES += \
     libqsap_shim \
     libfence_shim \
     ims_rtp_shim \
+    libshim_atomic \
     slim_shim
 
 # System properties

@@ -22,10 +22,8 @@ public:
     static const char WHITE_BALANCE_MANUAL_CCT[];
     static const char BURST_SHOT_OFF[];
     static const char BURST_SHOT_ON[] ;
-    static const char FOCUS_MODE_MANUAL_POSITION[];
     static const char KEY_BURST_SHOT[] ;
     static const char KEY_FOCUS_MODE_OBJECT_TRACKING[];
-    static const char WHITE_BALANCE_MANUAL_CCT[];
 };
 
 }; // namespace android

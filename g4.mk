@@ -157,6 +157,7 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.usb.rc \
     ueventd.qcom.rc \
+    init.logger.rc \
     init.qcom.coex.sh \
     init.qcom.fm.sh \
     init.class_main.sh \
